@@ -7,6 +7,9 @@ export default {
         cinzel: ["Cinzel", "serif"],
         inter: ["Inter", "sans-serif"],
       },
+      backgroundImage: {
+        "hero-pattern": "url('./src/assets/home/chef-service.webp')",
+      },
     },
   },
   daisyui: {

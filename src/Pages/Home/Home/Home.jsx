@@ -1,5 +1,7 @@
 import Container from "../../../Components/Container/Container";
 import Banner from "../Banner/Banner";
+import Category from "../Category/Category";
+import HeroSection from "../HeroSection/HeroSection";
 
 const Home = () => {
   return (
@@ -8,7 +10,15 @@ const Home = () => {
         <Banner></Banner>
       </div>
       <Container>
-        <div></div>
+        <div className="mx-auto">
+          <Category></Category>
+        </div>
+
+        {/* Hero section */}
+
+        <div>
+          <HeroSection></HeroSection>
+        </div>
       </Container>
     </>
   );
