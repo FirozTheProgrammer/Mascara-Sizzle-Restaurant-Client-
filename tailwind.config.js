@@ -9,6 +9,7 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('./src/assets/home/chef-service.webp')",
+        "featured-BG": "url('./src/assets/home/featured.webp')",
       },
     },
   },

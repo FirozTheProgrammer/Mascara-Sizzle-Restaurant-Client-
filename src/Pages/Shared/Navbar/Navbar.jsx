@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed w-screen bg-black bg-opacity-50 text-white z-10 mx-auto">
+      <div className="md:fixed  w-screen bg-white md:bg-black md:bg-opacity-50 md:text-white z-10 mx-auto">
         <Container>
           {" "}
           <div className="">
@@ -43,7 +43,7 @@ const Navbar = () => {
                   <div
                     tabIndex={0}
                     role="button"
-                    className="btn btn-ghost lg:hidden"
+                    className="btn btn-ghost  lg:hidden"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ const Navbar = () => {
                   </div>
                   <ul
                     tabIndex={0}
-                    className="menu  menu-sm dropdown-content uppercase  mt-3 z-[1] p-2 shadow bg-base-100 rounded-box "
+                    className="menu menu-sm dropdown-content text-black uppercase  mt-3 z-[1] p-2 shadow bg-base-100 rounded-box "
                   >
                     {navLinks}
                     <div className="lg:hidden flex">

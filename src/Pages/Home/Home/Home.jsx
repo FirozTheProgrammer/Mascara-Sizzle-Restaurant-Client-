@@ -1,6 +1,11 @@
 import Container from "../../../Components/Container/Container";
+import CallUs from "../../CallUs/CallUs";
+import FromOurMenu from "../../FromOurMenu/FromOurMenu";
+import PopularMenu from "../../PopularMenu/PopularMenu";
+import Testimonials from "../../Testimonials/Testimonials";
 import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
+import ChefRecommends from "../ChefRecommends/ChefRecommends";
 import HeroSection from "../HeroSection/HeroSection";
 
 const Home = () => {
@@ -10,15 +15,27 @@ const Home = () => {
         <Banner></Banner>
       </div>
       <Container>
-        <div className="mx-auto">
-          <Category></Category>
-        </div>
+        {/* Category Section */}
+        <Category></Category>
 
         {/* Hero section */}
+        <HeroSection></HeroSection>
 
-        <div>
-          <HeroSection></HeroSection>
-        </div>
+        {/* Popular section */}
+        <PopularMenu></PopularMenu>
+
+        {/*  Call us seciton  */}
+        <CallUs></CallUs>
+
+        {/* Chef Recommends Section */}
+        <ChefRecommends></ChefRecommends>
+      </Container>
+
+      {/* From our menu section */}
+      <FromOurMenu></FromOurMenu>
+      <Container>
+        {/* Testimonials Section */}
+        <Testimonials></Testimonials>
       </Container>
     </>
   );
